@@ -11,11 +11,23 @@
     //         "installCudnn": true
     //     }
     // },
-
+    "customizations": {
+        "codespaces": {
+          "openFiles": []
+        },
+        "vscode": {
+          "extensions": [
+            "ms-toolsai.jupyter",
+            "ms-python.python",
+            "ms-azuretools.vscode-docker"
+          ]
+        }
+    },
     "hostRequirements": {
         "storage": "64gb"
     },
     "runArgs": [
         "--shm-size=16g"
     ]
+
 }
